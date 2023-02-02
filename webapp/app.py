@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def two_hundred():
-    return "<h2>200! from GitHub actions!</h2>"
+    return "<h1>200! from GitHub actions!</h1>"
 
 @app.route("/error")
 def error():
